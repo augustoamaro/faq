@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 768px;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    padding-top: 148px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 327px;
+    height: 535px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px; 
+}
+
+.woman-online {
+    width: 237px;
+    height: 180px;
+    position: absolute;
+    transform: translateY(-60%);
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq h1 {
+    padding-top: 28px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #1E1F36;
+    margin-bottom: 38px;
+}
+
+.questions span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+    padding-right: 35px;
+}
+
+.anwsers {
+    display: none;
+    padding-top: 18px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #E8E8EA;
+    margin-top: 18px;
+}
