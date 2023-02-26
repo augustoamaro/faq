@@ -51,14 +51,22 @@ main {
     margin-bottom: 38px;
 }
 
-.question {
+.question1,
+.question2,
+.question3,
+.question4,
+.question5 {
     /* display: flex; */
     /* justify-content: space-between; */
     width: 100%;
     padding-bottom: 17px;
 }
 
-.question span {
+.question1 span,
+.question2 span,
+.question3 span,
+.question4 span,
+.question5 span {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -67,7 +75,11 @@ main {
     /* padding-right: 35px; */
 }
 
-.answer {
+.answer1, 
+.answer2,
+.answer3,
+.answer4,
+.answer5 {
     display: none;
     font-style: normal;
     font-weight: 400;
