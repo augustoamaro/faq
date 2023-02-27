@@ -51,35 +51,25 @@ main {
     margin-bottom: 38px;
 }
 
-.question1,
-.question2,
-.question3,
-.question4,
-.question5 {
+.question {
     /* display: flex; */
     /* justify-content: space-between; */
     width: 100%;
     padding-bottom: 17px;
 }
-
-.question1 span,
-.question2 span,
-.question3 span,
-.question4 span,
-.question5 span {
+.question span {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #4B4C5F;
-    /* padding-right: 35px; */
 }
 
-.answer1, 
-.answer2,
-.answer3,
-.answer4,
-.answer5 {
+.question img {
+  
+}
+
+.answer {
     display: none;
     font-style: normal;
     font-weight: 400;
